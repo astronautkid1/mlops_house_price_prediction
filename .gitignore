@@ -3,13 +3,13 @@
 # =============================================================================
 
 # Données générées
-/output_files/
+notebooks/output_files/
 
 # Modèles de machine learning entraînés
 /models/
 
 # Rapports générés (HTML, etc.)
-/reports/
+notebooks/reports/
 
 # Fichiers de log
 /logs/
