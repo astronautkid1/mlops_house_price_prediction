@@ -64,7 +64,7 @@ jobs:
         docker build -t ${{ secrets.DOCKER_REGISTRY }}:latest -f serving/Dockerfile .
         docker push ${{ secrets.DOCKER_REGISTRY }}:latest
 
-  Deploy:
+  deploy:
     runs-on: ubuntu-latest
     needs: build-and-push-image
     steps:
