@@ -1,0 +1,32 @@
+# Requirements pour les tests de qualité des données
+# Projet: Prédiction des prix des maisons à Ames, Iowa
+# Python 3.11
+
+# --- Core Testing ---
+ruff
+black[jupyter]
+pytest>=7.1.0
+pytest-cov>=3.0.0
+pendulum
+
+# --- Data Science Core ---
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.1.0
+joblib>=1.1.0
+
+# --- Logging ---
+loguru>=0.6.0
+
+# --- Configuration (si nécessaire) ---
+python-dotenv>=0.20.0
+
+# --- API Testing Dependencies ---
+fastapi>=0.85.0
+uvicorn>=0.18.0
+pydantic>=1.10.0
+python-multipart>=0.0.6
+httpx>=0.24.0
+
+# --- Optionnel: Reporting HTML ---
+pytest-html>=3.1.0

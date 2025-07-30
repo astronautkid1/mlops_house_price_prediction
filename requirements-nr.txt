@@ -1,0 +1,104 @@
+# Requirements pour l'exécution des notebooks d'analyse et d'expérimentation
+# Projet: Prédiction des prix des maisons à Ames, Iowa
+
+# Core data science libraries
+pandas>=1.5.0
+numpy>=1.21.0
+scipy>=1.9.0
+
+# Machine Learning
+scikit-learn>=1.1.0
+xgboost>=1.6.0
+lightgbm>=3.3.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.10.0
+missingno>=0.5.0
+
+# Model tracking and experimentation
+mlflow>=2.0.0
+
+# Statistical analysis
+statsmodels>=0.13.0
+
+# Model interpretation and visualization
+yellowbrick>=1.5.0
+shap>=0.41.0
+
+# Data profiling (optional but recommended)
+ydata-profiling>=4.0.0
+
+# Utility libraries
+loguru>=0.6.0
+pendulum>=2.1.0
+tqdm>=4.64.0
+
+# Jupyter notebook support
+jupyter>=1.0.0
+ipykernel>=6.15.0
+ipywidgets>=7.7.0
+
+# File handling
+openpyxl>=3.0.0
+xlrd>=2.0.0
+
+# Progress bars and utilities
+tqdm>=4.64.0
+pathlib2>=2.3.0
+
+# Memory profiling (optional)
+memory-profiler>=0.60.0
+
+# Additional visualization
+wordcloud>=1.9.0
+squarify>=0.4.0
+
+# Feature selection and engineering
+feature-engine>=1.4.0
+category-encoders>=2.5.0
+
+# Time series (if needed for temporal analysis)
+prophet>=1.1.0
+
+# Advanced statistics
+pingouin>=0.5.0
+
+# Hyperparameter optimization
+optuna>=3.0.0
+hyperopt>=0.2.7
+
+# Model serialization
+joblib>=1.1.0
+
+# Data validation
+great-expectations>=0.15.0
+pandera>=0.12.0
+
+# Notebook execution
+papermill>=2.4.0
+nbconvert>=6.5.0
+
+# Environment and configuration
+python-dotenv>=0.20.0
+pyyaml>=6.0
+
+# Performance monitoring
+psutil>=5.9.0
+
+# Documentation generation
+sphinx>=5.0.0
+sphinx-rtd-theme>=1.0.0
+
+# Code quality (for development)
+black>=22.0.0
+isort>=5.10.0
+flake8>=5.0.0
+mypy>=0.971
+
+# Testing (for notebook validation)
+pytest>=7.1.0
+pytest-cov>=3.0.0
+nbval>=0.9.6
+

@@ -1,0 +1,43 @@
+# Ignore version control
+.git
+.gitignore
+
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+testvenv/
+env/
+.env
+
+# Ignore test and development files
+.pytest_cache/
+.ruff_cache/
+tests/
+notebooks/
+logs/
+mlruns/
+output_files/
+reports/
+
+# Ignore development files
+.vscode/
+*.log
+*.tmp
+
+# Ignore GitHub workflow files
+.github/
+
+# Ignore project files not needed for the container
+pyproject.toml
+pytest.ini
+README.md
+requirements-nr.txt
+requirements-tests.txt
+run_house_price.sh
+house_price_dataset/
+src/
+

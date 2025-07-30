@@ -1,0 +1,95 @@
+# =============================================================================
+# Fichiers et dossiers générés par le projet (artefacts)
+# =============================================================================
+
+# Données générées
+/output_files/
+
+# Modèles de machine learning entraînés
+/models/
+
+# Rapports générés (HTML, etc.)
+/reports/
+
+# Fichiers de log
+/logs/
+
+# Données de suivi MLflow
+/mlruns/
+mlflow.db
+
+# =============================================================================
+# Environnements virtuels Python
+# =============================================================================
+venv/
+env/
+.env
+venv.bak/
+env.bak/
+testvenv
+
+# =============================================================================
+# Fichiers Python compilés et caches
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+.ruff_cache
+
+# =============================================================================
+# Fichiers de distribution et d'installation
+# =============================================================================
+/build/
+/dist/
+/sdist/
+*.egg-info/
+*.egg
+
+# =============================================================================
+# Fichiers de test et de couverture de code
+# =============================================================================
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+
+# =============================================================================
+# Fichiers de configuration des IDE
+# =============================================================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =============================================================================
+# Fichiers spécifiques aux notebooks Jupyter
+# =============================================================================
+.ipynb_checkpoints
+
+# =============================================================================
+# Fichiers spécifiques au système d'exploitation
+# =============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =============================================================================
+# Fichiers de secrets et de configuration locale
+# =============================================================================
+# Ne jamais versionner les fichiers contenant des secrets !
+*.env
+.env.*
+secrets.yml
+
+# =============================================================================
+# Rapports de sécurité
+# =============================================================================
+bandit-report.json
+safety-report.json
