@@ -1,0 +1,14 @@
+artifact_uri: file:///d:/Documents/IT/mlops_house_price_prediction/notebooks/mlruns/244493824861811401/a11e28f2ae8e4bd08b594569415822c2/artifacts
+end_time: 1754001040164
+entry_point_name: ''
+experiment_id: '244493824861811401'
+lifecycle_stage: active
+run_id: a11e28f2ae8e4bd08b594569415822c2
+run_name: Lasso
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754001016845
+status: 3
+tags: []
+user_id: astronautkid

@@ -1,0 +1,14 @@
+artifact_uri: file:///d:/Documents/IT/mlops_house_price_prediction/notebooks/mlruns/244493824861811401/7750d1a262a84a69a67f058bfe9ea4e4/artifacts
+end_time: 1754003345923
+entry_point_name: ''
+experiment_id: '244493824861811401'
+lifecycle_stage: active
+run_id: 7750d1a262a84a69a67f058bfe9ea4e4
+run_name: Ridge
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754003319174
+status: 3
+tags: []
+user_id: astronautkid

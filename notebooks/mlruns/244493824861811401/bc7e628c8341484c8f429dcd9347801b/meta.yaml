@@ -1,0 +1,14 @@
+artifact_uri: file:///d:/Documents/IT/mlops_house_price_prediction/notebooks/mlruns/244493824861811401/bc7e628c8341484c8f429dcd9347801b/artifacts
+end_time: 1754003627645
+entry_point_name: ''
+experiment_id: '244493824861811401'
+lifecycle_stage: active
+run_id: bc7e628c8341484c8f429dcd9347801b
+run_name: GradientBoostingRegressor
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754003593172
+status: 3
+tags: []
+user_id: astronautkid
