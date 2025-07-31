@@ -9,8 +9,8 @@ import os
 from loguru import logger
 import pendulum
 
-from utils.inputs import HouseFeatures
-from utils.loaders import load_model_and_metadata
+from serving.utils.inputs import HouseFeatures
+from serving.utils.loaders import load_model_and_metadata
 from sklearn.compose import ColumnTransformer
 
 # Configuration du logger
