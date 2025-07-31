@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import requests
-import io
 
 # ------------------------- Configuration -------------------------
 st.set_page_config(page_title="Prédicteur de Prix Immobilier", layout="centered")

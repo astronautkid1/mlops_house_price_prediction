@@ -52,7 +52,6 @@ if model is None:
     from unittest.mock import MagicMock
     from sklearn.pipeline import Pipeline
     from sklearn.compose import ColumnTransformer
-    from sklearn.preprocessing import StandardScaler, OneHotEncoder
     from sklearn.linear_model import ElasticNet
 
     # Créer un pipeline mock plus réaliste
