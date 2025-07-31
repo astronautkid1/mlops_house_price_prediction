@@ -32,7 +32,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Setup VM
-      run: apt-get -y update && apt-get install -y git
+      run: apt-get -y update && apt-get install -y git libgomp1
     - name: Install dependencies
       run: |
         pip install pip --upgrade
