@@ -1,0 +1,14 @@
+artifact_uri: file:///d:/Documents/IT/mlops_house_price_prediction/notebooks/mlruns/244493824861811401/fa3d0be13d424fbc8fd270d2f34b5272/artifacts
+end_time: 1753999303082
+entry_point_name: ''
+experiment_id: '244493824861811401'
+lifecycle_stage: active
+run_id: fa3d0be13d424fbc8fd270d2f34b5272
+run_name: SVR
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753999291045
+status: 3
+tags: []
+user_id: astronautkid

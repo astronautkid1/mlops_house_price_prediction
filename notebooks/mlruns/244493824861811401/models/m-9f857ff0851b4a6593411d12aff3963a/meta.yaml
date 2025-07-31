@@ -1,0 +1,10 @@
+artifact_location: file:///d:/Documents/IT/mlops_house_price_prediction/notebooks/mlruns/244493824861811401/models/m-9f857ff0851b4a6593411d12aff3963a/artifacts
+creation_timestamp: 1753999341933
+experiment_id: '244493824861811401'
+last_updated_timestamp: 1753999350543
+model_id: m-9f857ff0851b4a6593411d12aff3963a
+model_type: null
+name: model
+source_run_id: 6f018b6636814c09b065340dda259774
+status: 2
+status_message: null

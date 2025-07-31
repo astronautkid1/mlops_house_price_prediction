@@ -1,0 +1,6 @@
+destination_id: m-ec436d552485438d8c395cb24f199faa
+destination_type: MODEL_OUTPUT
+source_id: m-ec436d552485438d8c395cb24f199faa
+source_type: RUN_OUTPUT
+step: 0
+tags: {}
