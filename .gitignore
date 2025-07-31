@@ -6,13 +6,10 @@
 notebooks/output_files/
 
 # Modèles de machine learning entraînés
-/models/
+notebooks/models
 
 # Rapports générés (HTML, etc.)
 notebooks/reports/
-
-# Fichiers de log
-/logs/
 
 # Données de suivi MLflow
 /mlruns/

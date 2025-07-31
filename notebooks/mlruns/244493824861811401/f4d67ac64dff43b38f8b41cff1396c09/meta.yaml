@@ -1,0 +1,14 @@
+artifact_uri: file:///d:/Documents/IT/mlops_house_price_prediction/notebooks/mlruns/244493824861811401/f4d67ac64dff43b38f8b41cff1396c09/artifacts
+end_time: 1753983895628
+entry_point_name: ''
+experiment_id: '244493824861811401'
+lifecycle_stage: active
+run_id: f4d67ac64dff43b38f8b41cff1396c09
+run_name: LinearRegression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753983795618
+status: 4
+tags: []
+user_id: astronautkid

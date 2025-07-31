@@ -1,0 +1,14 @@
+artifact_uri: file:///d:/Documents/IT/mlops_house_price_prediction/notebooks/mlruns/244493824861811401/36b4eb9b03de4ecdb09a4583468c5978/artifacts
+end_time: 1753983907152
+entry_point_name: ''
+experiment_id: '244493824861811401'
+lifecycle_stage: active
+run_id: 36b4eb9b03de4ecdb09a4583468c5978
+run_name: RandomForestRegressor
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753983622159
+status: 3
+tags: []
+user_id: astronautkid

@@ -8,9 +8,9 @@ SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &> /dev/null && pwd)
 
 # Configuration des chemins relatifs
 NOTEBOOKS_DIR="${SCRIPT_DIR}/notebooks"
-OUTPUT_DIR="${SCRIPT_DIR}/output_files"
-LOGS_DIR="${SCRIPT_DIR}/logs"
-REPORTS_DIR="${SCRIPT_DIR}/reports"
+OUTPUT_DIR="${NOTEBOOKS_DIR}/output_files"
+LOGS_DIR="${NOTEBOOKS_DIR}/logs"
+REPORTS_DIR="${NOTEBOOKS_DIR}/reports"
 
 # Créer les répertoires de logs, rapports et output s'ils n'existent pas
 mkdir -p "$LOGS_DIR"
