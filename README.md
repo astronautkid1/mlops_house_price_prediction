@@ -14,6 +14,16 @@ Le pipeline couvre les étapes suivantes : analyse exploratoire, feature enginee
 
 ---
 
+## URLs de démonstration
+
+- **Interface utilisateur Streamlit :**  
+  👉 [mlopshousepriceprediction-kantoussandiengfall.streamlit.app](https://mlopshousepriceprediction-kantoussandiengfall.streamlit.app/)
+
+- **Documentation Swagger de l'API (FastAPI) :**  
+  👉 [house-price-prediction-f3xa.onrender.com/docs](https://house-price-prediction-f3xa.onrender.com/docs)
+
+---
+
 ## Étapes du projet
 
 **1. Analyse exploratoire des données**  
