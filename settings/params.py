@@ -32,11 +32,10 @@ CURRENT_DATE = pendulum.now(tz=TIMEZONE)
 PROJECT_ROOT = Path(__file__).parent.parent
 DATA_DIR = PROJECT_ROOT / "house_price_dataset"
 NOTEBOOKS_DIR = PROJECT_ROOT / "notebooks"
-OUTPUT_DIR = PROJECT_ROOT / "output_files"
-MODELS_DIR = PROJECT_ROOT / "models"
-REPORTS_DIR = PROJECT_ROOT / "reports"
-LOGS_DIR = PROJECT_ROOT / "logs"
-API_DIR = PROJECT_ROOT / "API"
+OUTPUT_DIR = NOTEBOOKS_DIR / "output_files"
+MODELS_DIR = NOTEBOOKS_DIR / "models"
+REPORTS_DIR = NOTEBOOKS_DIR / "reports"
+LOGS_DIR = NOTEBOOKS_DIR / "logs"
 TESTS_DIR = PROJECT_ROOT / "tests"
 
 # Fichiers de données
@@ -305,8 +304,8 @@ API_WORKERS = 1
 API_RELOAD = False
 
 # Modèle pour l'API
-API_MODEL_PATH = MODELS_DIR / "house_price_best_model_gradientboosting.pkl"
-API_METADATA_PATH = MODELS_DIR / "house_price_best_model_gradientboosting_metadata.json"
+API_MODEL_PATH = MODELS_DIR / "house_price_best_model_elasticnet.pkl"
+API_METADATA_PATH = MODELS_DIR / "house_price_best_model_elasticnet_metadata.json"
 
 # Limites de l'API
 MAX_BATCH_SIZE = 1000
@@ -407,7 +406,6 @@ def create_directories() -> None:
         REPORTS_DIR,
         LOGS_DIR,
         NOTEBOOKS_DIR,
-        API_DIR,
         TESTS_DIR,
     ]
 

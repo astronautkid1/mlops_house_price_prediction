@@ -85,6 +85,7 @@ joblib>=1.1.0
 
 # Utilities
 pathlib2>=2.3.0
+streamlit>=1.25.0
 
 # Code quality (for development)
 black>=22.0.0

@@ -41,10 +41,18 @@ def load_model_and_metadata(
                 # Vérification de la structure du pipeline
                 if "preprocessor" not in model.named_steps:
                     logger.warning("Le pipeline ne contient pas d'étape 'preprocessor'")
-                if "regressor" not in model.named_steps:
-                    logger.warning("Le pipeline ne contient pas d'étape 'regressor'")
+                # Accepter 'model' ou 'regressor' comme nom d'étape pour le modèle final
+                if not any(
+                    name in model.named_steps for name in ["regressor", "model"]
+                ):
+                    logger.warning(
+                        "Le pipeline ne contient pas d'étape 'model' ou 'regressor'"
+                    )
                 else:
-                    regressor_type = type(model.named_steps["regressor"]).__name__
+                    reg_name = (
+                        "regressor" if "regressor" in model.named_steps else "model"
+                    )
+                    regressor_type = type(model.named_steps[reg_name]).__name__
                     logger.info(f"Type de régresseur détecté: {regressor_type}")
         else:
             logger.error(f"Fichier modèle non trouvé: {model_path}")

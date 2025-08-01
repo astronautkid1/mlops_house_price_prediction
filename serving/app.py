@@ -31,6 +31,7 @@ model_path = os.getenv(
     "MODEL_PATH",
     os.path.join(
         os.path.dirname(os.path.dirname(__file__)),
+        "notebooks",
         "models",
         "house_price_best_model_elasticnet.pkl",
     ),
@@ -39,6 +40,7 @@ metadata_path = os.getenv(
     "MODEL_METADATA_PATH",
     os.path.join(
         os.path.dirname(os.path.dirname(__file__)),
+        "notebooks",
         "models",
         "house_price_best_model_elasticnet_metadata.json",
     ),
@@ -200,7 +202,7 @@ if model:
         preprocessor = model.named_steps.get("preprocessor")
         if preprocessor and isinstance(preprocessor, ColumnTransformer):
             if not hasattr(preprocessor, "_name_to_fitted_passthrough"):
-                logger.warning(
+                logger.info(
                     "Patching ColumnTransformer: ajout de l'attribut '_name_to_fitted_passthrough'."
                 )
                 preprocessor._name_to_fitted_passthrough = {
