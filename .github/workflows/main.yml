@@ -46,7 +46,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: models-artifact
-        path: models/
+        path: notebooks/models/        
 
   build-and-push-image:
     runs-on: ubuntu-latest
@@ -57,7 +57,8 @@ jobs:
       uses: actions/download-artifact@v4
       with:
         name: models-artifact
-        path: models/
+        path: notebooks/models/
+        
     - name: Dockerize
       run: |
         docker login -u=${{ secrets.DOCKER_USERNAME }} -p=${{ secrets.DOCKER_PASSWORD }}
