@@ -5,7 +5,7 @@
 - Mouhamed DIENG  
 - Ndaraw FALL  
 - Isabelle Olive Kantoussan
-- 
+ 
 ## Présentation du projet
 
 Ce projet vise à construire un pipeline MLOps pour prédire le prix de vente de maisons à Ames (Iowa, USA), à partir d'un jeu de données de 79 variables. L'objectif est de fournir un outil fiable pour l'estimation immobilière, utilisable par des professionnels, data scientists ou agences.

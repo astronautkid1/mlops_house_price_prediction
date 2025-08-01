@@ -1,0 +1,65 @@
+artifact_path: file:///d:/Documents/IT/mlops_house_price_prediction/notebooks/mlruns/244493824861811401/models/m-a389f40c089749b6a48c2971e8187e27/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.6
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.1
+is_signature_from_type_hint: false
+mlflow_version: 3.1.4
+model_id: m-a389f40c089749b6a48c2971e8187e27
+model_size_bytes: 20670051
+model_uuid: m-a389f40c089749b6a48c2971e8187e27
+prompts: null
+run_id: b0eaa10fb4984121aa38af4e0b6ed0b2
+signature:
+  inputs: '[{"type": "long", "name": "OverallQual", "required": true}, {"type": "long",
+    "name": "TotalSF", "required": true}, {"type": "long", "name": "GrLivArea", "required":
+    true}, {"type": "long", "name": "GarageCars", "required": true}, {"type": "double",
+    "name": "TotalBathrooms", "required": true}, {"type": "long", "name": "GarageArea",
+    "required": true}, {"type": "long", "name": "TotalBsmtSF", "required": true},
+    {"type": "long", "name": "1stFlrSF", "required": true}, {"type": "long", "name":
+    "QualityScore", "required": true}, {"type": "long", "name": "FullBath", "required":
+    true}, {"type": "long", "name": "TotRmsAbvGrd", "required": true}, {"type": "long",
+    "name": "HouseAge", "required": true}, {"type": "long", "name": "YearBuilt", "required":
+    true}, {"type": "long", "name": "YearsSinceRemod", "required": true}, {"type":
+    "long", "name": "YearRemodAdd", "required": true}, {"type": "string", "name":
+    "MSZoning", "required": true}, {"type": "string", "name": "Street", "required":
+    true}, {"type": "string", "name": "LotShape", "required": true}, {"type": "string",
+    "name": "LandContour", "required": true}, {"type": "string", "name": "Utilities",
+    "required": true}, {"type": "string", "name": "LotConfig", "required": true},
+    {"type": "string", "name": "LandSlope", "required": true}, {"type": "string",
+    "name": "Condition1", "required": true}, {"type": "string", "name": "Condition2",
+    "required": true}, {"type": "string", "name": "BldgType", "required": true}, {"type":
+    "string", "name": "HouseStyle", "required": true}, {"type": "string", "name":
+    "RoofStyle", "required": true}, {"type": "string", "name": "RoofMatl", "required":
+    true}, {"type": "string", "name": "Exterior1st", "required": true}, {"type": "string",
+    "name": "Exterior2nd", "required": true}, {"type": "string", "name": "ExterQual",
+    "required": true}, {"type": "string", "name": "ExterCond", "required": true},
+    {"type": "string", "name": "Foundation", "required": true}, {"type": "string",
+    "name": "BsmtQual", "required": false}, {"type": "string", "name": "BsmtCond",
+    "required": false}, {"type": "string", "name": "BsmtExposure", "required": false},
+    {"type": "string", "name": "BsmtFinType1", "required": false}, {"type": "string",
+    "name": "BsmtFinType2", "required": false}, {"type": "string", "name": "Heating",
+    "required": true}, {"type": "string", "name": "HeatingQC", "required": true},
+    {"type": "string", "name": "CentralAir", "required": true}, {"type": "string",
+    "name": "Electrical", "required": true}, {"type": "string", "name": "KitchenQual",
+    "required": true}, {"type": "string", "name": "Functional", "required": true},
+    {"type": "string", "name": "FireplaceQu", "required": false}, {"type": "string",
+    "name": "GarageType", "required": false}, {"type": "string", "name": "GarageFinish",
+    "required": false}, {"type": "string", "name": "GarageQual", "required": false},
+    {"type": "string", "name": "GarageCond", "required": false}, {"type": "string",
+    "name": "PavedDrive", "required": true}, {"type": "string", "name": "SaleType",
+    "required": true}, {"type": "string", "name": "SaleCondition", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-08-01 16:38:03.474836'

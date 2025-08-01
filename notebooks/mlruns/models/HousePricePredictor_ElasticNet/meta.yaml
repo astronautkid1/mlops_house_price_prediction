@@ -3,5 +3,5 @@ creation_timestamp: 1753985074077
 deployment_job_id: null
 deployment_job_state: null
 description: null
-last_updated_timestamp: 1754003383821
+last_updated_timestamp: 1754066022488
 name: HousePricePredictor_ElasticNet
